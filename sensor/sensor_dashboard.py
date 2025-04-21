@@ -54,7 +54,7 @@ def get_pie_data(df):
 if page == "🏠 Home":
     st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Smart Posture Correction App</h1>", unsafe_allow_html=True)
     st.image("https://cdn.dribbble.com/users/63407/screenshots/3577631/standing.gif", use_column_width=True)
-    image_path = "C:/Users/DELL/Data Science/Projects/Posture Corection Smart device/belt.jpg"
+    image_path = "C:/Users/DELL/Data Science/Projects/Posture Corection Smart device/src/posturecorrection/Images/belt.jpg"
     try:
         local_img = Image.open(image_path)
         st.image(local_img, caption="Smart Device Tracking Posture", use_column_width=True)
